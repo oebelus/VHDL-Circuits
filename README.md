@@ -1,0 +1,27 @@
+# VHDL
+
+I will put my VHDL code on logic gates and beyond here.
+
+## Combinational
+
+### Elementary
+
+0. [AND](./Combinational/Elementary/AND.vhd).
+1. [OR](./Combinational/Elementary/OR.vhd).
+2. [NOT](./Combinational/Elementary/NOT.vhd).
+3. [NAND](./Combinational/Elementary/NAND.vhd).
+4. [NOR](./Combinational/Elementary/NOR.vhd).
+5. [XOR](./Combinational/Elementary/XOR.vhd).
+6. [XNOR](./Combinational/Elementary/XNOR.vhd).
+
+### Multiplexers
+
+7. [2:1 multiplexer](./Combinational/Multiplexers/2_1MUX.vhd).
+8. [4:1 multiplexer](./Combinational/Multiplexers/4_1MUX.vhd).
+9. [Gray Code to Binary Converter](./Combinational/Multiplexers/GRAY_CODE.vhd).
+10. [BCD Code](./Combinational/Multiplexers/BCD.vhd)
+
+### Encoders
+
+11. [Octal Encoder](./Combinational/Encoders/OCTAL.vhd).
+12. Priority Encoder.
