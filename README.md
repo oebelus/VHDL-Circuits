@@ -25,8 +25,10 @@ I will put my VHDL code on logic gates and beyond here.
 
 11. [Octal Encoder](./Combinational/Encoders/OCTAL.vhd).
 12. [4-bit Priority Encoder](./Combinational/Encoders/PRIORITY.vhd)
+13. [Hexadecimal Encoder](./Combinational/Encoders/HEXADECIMAL.vhd)
 
 ### Decoders
 
-13. [BCD Decoder](./Combinational/Decoders/BCD_decoder.vhd)
-14. [BCD to Seven Segment Display Converter](./Combinational/Decoders/BCD_SS.vhd)
+14. [BCD Decoder](./Combinational/Decoders/BCD_decoder.vhd)
+15. [BCD to Seven Segment Display Converter](./Combinational/Decoders/BCD_SS.vhd)
+16. [Hexadecimal Decoder](./Combinational/Decoders/HEXADECIMAL_decoder.vhd)
