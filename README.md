@@ -32,3 +32,5 @@ I will put my VHDL code on logic gates and beyond here.
 14. [BCD Decoder](./Combinational/Decoders/BCD_decoder.vhd)
 15. [BCD to Seven Segment Display Converter](./Combinational/Decoders/BCD_SS.vhd)
 16. [Hexadecimal Decoder](./Combinational/Decoders/HEXADECIMAL_decoder.vhd)
+17. [2-to-4 binary decoder](./Combinational/Decoders/TWO_TO_FOUR.vhd)
+18. [3-to-8 binary decoder](./Combinational/Decoders/THREE_TO_EIGHT.vhd)
