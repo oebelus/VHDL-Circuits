@@ -8,7 +8,7 @@ entity decoder is
 end entity;
 
 architecture logic_flow of decoder is
-    signal en : std_logic_vector
+    signal en : std_logic_vector(1 downto 0);
 begin
     Y <= "0001" when i = "00" else
          "0010" when i = "01" else

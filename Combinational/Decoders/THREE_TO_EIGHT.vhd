@@ -8,8 +8,8 @@ entity decoder_138 is
         Y_L : in std_logic_vector(7 downto 0));
 end entity;
 
-architecture logic_flow for decoder_138 is :
-
+architecture logic_flow of decoder_138 is
+    signal Y_L_i : std_logic_vector(7 downto 0);
 begin
     Y_L <= "01111111" when A = "000" else
            "10111111" when A = "001" else
@@ -19,5 +19,7 @@ begin
            "11111011" when A = "101" else
            "11111101" when A = "110" else
            "11111110" when A = "111" else
+           "11111111";
+    Y_L <= Y_L_i when (G1 and not G2A_L and not G2B_L) = '1' else
            "11111111";
 end architecture;

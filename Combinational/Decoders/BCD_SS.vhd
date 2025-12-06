@@ -2,7 +2,7 @@ entity bcd_to_ssd is
     port (
         bcd : in std_logic_vector(3 downto 0);
         ssd : out std_logic_vector(6 downto 0));
-end;
+end entity;
 
 architecture control_flow of bcd_to_ss is
 
